@@ -1,0 +1,27 @@
+{
+  "name": "imgopt",
+  "version": "0.1.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "install": "neon build --release",
+    "test": "jest",
+    "fmt": "prettier --write ."
+  },
+  "author": "",
+  "license": "GPL-3.0-or-later",
+  "devDependencies": {
+    "cargo-cp-artifact": "^0.1",
+    "jest": "^27.2.4",
+    "neon-cli": "^0.9.1",
+    "prettier": "^2.4.1",
+    "temp": "^0.9.4"
+  },
+  "jest": {
+    "testMatch": [
+      "**/__tests__/**/*.[jt]s?(x)",
+      "**/?(*.)+(spec|test).[jt]s?(x)"
+    ]
+  },
+  "dependencies": {}
+}
